@@ -1,7 +1,18 @@
 aid: imile
-name: imile
-description: imile is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: iMile
+description: >-
+  iMile is a technology-driven last-mile delivery and e-commerce logistics
+  company founded in 2017 and headquartered in Dubai, United Arab Emirates. Led
+  by founder and CEO Rita Huang, iMile provides express parcel delivery,
+  cash-on-delivery (COD), domestic and international express, dropshipping,
+  order fulfillment, warehousing, storage, and reverse logistics / return
+  management across more than 30 countries spanning the Middle East, China,
+  Latin America, Africa, Europe, and Australia. The company operates its own
+  routing, tracking, and delivery technology and employs over 20,000 people.
+  iMile assigns each shipment a 13-digit tracking number; parcel tracking is
+  available on imile.com and through major third-party tracking aggregators.
+  iMile does not currently publish a first-party public developer API or open
+  platform, so this profile captures its identity and domain-security posture.
 url: https://raw.githubusercontent.com/api-evangelist/imile/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,32 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.imile.com/favicon.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Logistics
+- Last-Mile Delivery
+- E-commerce
+- Courier
+- Shipping
+- Package Tracking
+- Supply Chain
+- Fulfillment
+- Middle East
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +54,21 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://imile.com
+  url: https://www.imile.com
+- type: Support
+  url: https://www.imile.com/AE-en/CustomerService/CustomerSupport/
+- type: HelpCenter
+  url: https://help.imile.com/
+- type: Blog
+  url: https://www.imile.com/AE-en/Blog/
+- type: TermsOfService
+  url: https://www.imile.com/AE-en/TermsOfUse/
+- type: PrivacyPolicy
+  url: https://www.imile.com/AE-en/PrivacyPolicy/
+- type: DomainSecurity
+  url: security/imile-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
